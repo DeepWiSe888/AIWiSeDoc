@@ -1,1 +1,14 @@
-theme: jekyll-theme-cayman
+title: AIWiSe
+lang: en
+description: Guangzhou AIWise Artificial Intelligence Technology Co., LTD
+
+remote_theme: rundocs/jekyll-rtd-theme
+
+readme_index:
+  with_frontmatter: true
+
+exclude:
+  - Makefile
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
