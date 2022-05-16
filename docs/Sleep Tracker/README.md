@@ -2,5 +2,5 @@
 sort: 2
 ---
 
-# Sleep Track
+# Sleep Tracker
 ## Introduction
