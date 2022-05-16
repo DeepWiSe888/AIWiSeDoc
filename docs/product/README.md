@@ -1,7 +1,3 @@
----
-sort: 3
----
-
 
 #  <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/AIWISE.png" width="66" height="66"/>  AIWiSe Product Introduction
 
