@@ -1,4 +1,4 @@
-#  <img src="https://raw.githubusercontent.com/evangg007/evangg007.github.io/master/img/AIWISE.png" width="66" height="66"/>  AIWiSe
+#  <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/AIWISE.png" width="66" height="66"/>  AIWiSe
 
 
 ## Welcome to our Pages  
@@ -9,7 +9,7 @@
 
 
 ##  DIY
-* **[Sleep Tracker](https://deepwise888.github.io/AIWiSeDoc/Sleep Tracker/)**
+* **[Sleep Traker](https://deepwise888.github.io/AIWiSeDoc/Sleep Tracker/)**
 
 ##  Product List
 **[AIWiSe Product Introduction](https://deepwise888.github.io/AIWiSeDoc/product/)**

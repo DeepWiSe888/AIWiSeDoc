@@ -1,6 +1,4 @@
----
-sort: 2
----
+
 
 # Sleep Tracker
 ## Introduction
@@ -21,7 +19,7 @@ Track your sleep accurately without the discomfort of a wristband or electrode w
 #### 1.Connect Your Device
 Connect the device as shown:
 <div align=center>
-<img src="" width="100" height="100"/> 
+<img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/sleepTracker1" width="320" height="250"/> 
 </div>
 <center>Figure 1. Device Connection</center>
 
