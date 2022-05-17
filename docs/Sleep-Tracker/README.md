@@ -50,7 +50,7 @@ Now,radar data will be printed out.
 <div align=center>
 <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/sleepTracker2.jpg" width="405" height="455"/> 
 </div>
-<center>Figure 1. Device Connection</center>
+<center>Figure 2.IP Address</center>
 
 #### 3.5 Building the development environment and Run the demo
 * Pull the code
