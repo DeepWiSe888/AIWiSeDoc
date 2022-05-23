@@ -67,6 +67,7 @@ Now,radar data will be printed out.
   python sleep-tracker.py
   ```
 Figure.3 is a simulation of the process From waking to deep sleep, waking from deep sleep.
+PS:
 <div align=center>
 <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/sleepTracker3.jpg" width="785" height="950"/> 
 </div>
