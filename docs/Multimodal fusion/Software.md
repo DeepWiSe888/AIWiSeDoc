@@ -12,7 +12,7 @@ sort: 2
 * **[Camera](#3camera)**
 * **[Lidar](#4lidar)**
 * ...
-gitp
+
 ##  1.FMCW
 #### 1.1 System Structure
 #### 1.2 Data structure
