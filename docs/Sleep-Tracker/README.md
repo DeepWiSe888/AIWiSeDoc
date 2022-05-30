@@ -73,9 +73,22 @@ PS:
 </div>
 <center>Figure 3.Sleep-Tracker</center>
 
-## 4 Challenges and Future Work
+
+## 4 Data structure of Radar
+Specific datasheet reference:  
+**[AW-UWB-EV-01](https://deepwise888.github.io/AIWiSeDoc/product/0~10g.html#11---aw-uwb-ev-01)**
+You can also find raw data in line 218 of [sleep-tracker.py](https://github.com/DeepWiSe888/Sleep-Tracker/blob/main/sleep-tracker.py)
+```python
+iq = x
+```
+| name      | type        | value    |
+|-----------|-------------|----------|
+| iq        | np.array    | FPS*BIN  | 
+
+
+## 5 Challenges and Future Work
 Accuracy needs improvement.
 
-## 5 Code
-All of the project code can be found on GitHub :[Sleep-Tracker](https://github.com/DeepWiSe888/Sleep-Tracker).
+## 6 Code
+All of the project code scan be found on GitHub :[Sleep-Tracker](https://github.com/DeepWiSe888/Sleep-Tracker).
 
