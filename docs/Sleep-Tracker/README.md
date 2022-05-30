@@ -75,8 +75,7 @@ PS:
 
 
 ## 4 Data structure of Radar
-Specific datasheet reference:  
-**[AW-UWB-EV-01](https://deepwise888.github.io/AIWiSeDoc/product/0~10g.html#11---aw-uwb-ev-01)**  
+Specific datasheet reference: **[AW-UWB-EV-01](https://deepwise888.github.io/AIWiSeDoc/product/0~10g.html#11---aw-uwb-ev-01)**  
 You can also find raw data in line 218 of [sleep-tracker.py](https://github.com/DeepWiSe888/Sleep-Tracker/blob/main/sleep-tracker.py)
 ```python
 iq = x
