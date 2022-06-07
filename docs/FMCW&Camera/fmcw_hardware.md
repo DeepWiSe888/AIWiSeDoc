@@ -29,7 +29,7 @@ C-band FMCW radar RF Front-end main technical performance:
 #### 2.1 FMCW radar RF Front-end introduction
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/fmcwf1.jpg" width="554" height="271"/>
+<img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/fmcwf1.jpg" width="1166" height="462"/>
 </div>
 <center>Figure.1 FMCW radar structure </center>
 
