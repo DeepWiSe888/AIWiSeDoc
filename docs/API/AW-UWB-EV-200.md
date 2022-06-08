@@ -5,26 +5,6 @@ sort: 2
 
 ## 1 Usb serial communication
 
-#### Version 1.0
-1. Transmission mode: serial USB.  
-2. 1 packet per second.  
-3. Description of packet content and format:  
-
-| NO   | Field     | Type   | Byte      | Value            | Description                   |
-| ---- | -------- | ------ | ---------- | ---------------- | ----------------------------- |
-| 1    | Header   |        | 4          | 0xe90xcf0x930x72 | Packet Header                 |
-| 2    | ID       | char   | 12         |                  | Device id                     |
-| 3    | State    | uint16 | 2          |                  | Device state                  |
-| 4    |Respiration| uint16 | 2         |                  | Respiration per minute        |
-| 5    | Fastm   | uint16 | 2           |      0~100       | Fast motion quantization      |
-| 6    | Slowm   | uint16 | 2           |      0~100       | Slow motion quantization      |
-| 7    | Rawm | float  | 17*4           |                  | Raw waveform, lastest 1s                 |
-| 8    | Resm | float  | 17*4           |                  | Respiration wavefoem，lastest 1s         |
-| 9    | Re     |        | 8            |                  | Reserved Field                           |
-
-
-
-#### Version 2.0
 1. Transmission mode: serial USB.  
 2. 1 packet per second.  
 3. Description of packet content and format(json):  
