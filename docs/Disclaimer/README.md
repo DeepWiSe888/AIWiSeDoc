@@ -2,7 +2,7 @@
 sort: 99
 ---
 
-# Disclaimer
+#  <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/AIWISE.png" width="66" height="66"/>  Disclaimer
 
 
 The information herein is believed to be correct as of the date issued. AIWiSe will not be responsible for damages of any nature resulting from the use or reliance upon the information contained herein. AIWiSe makes no warranties, expressed or implied, of merchantability or fitness for a particular purpose or course of performance or usage of trade. Therefore, it is the user’s responsibility to thoroughly test the product in their particular application to determine its performance, efficacy and safety. Users should obtain the latest relevant information before placing orders.
