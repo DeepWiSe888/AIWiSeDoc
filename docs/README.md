@@ -12,8 +12,11 @@
 ##  DIY
 * **[Sleep-Traker](https://deepwise888.github.io/AIWiSeDoc/Sleep-Tracker/)**
 
-##  Product List
-**[AIWiSe Product Introduction](https://deepwise888.github.io/AIWiSeDoc/product/)**
+##  Product 
+**[AIWiSe Product List](https://deepwise888.github.io/AIWiSeDoc/product/)**  
+
+##  API
+**[AIWiSe Product API](https://deepwise888.github.io/AIWiSeDoc/API/)**  
 
 ## About AIWiSe
 **AIWiSe is an artificial intelligence Internet of Things (AIoT) enterprise focusing on life and body perception. Our name comes from our enterprise belief that artificial intelligence and intelligent connection to all things means that we will combine artificial intelligence (AI) and Internet of Things (IoT) technology perfectly to empower all things. We have profound technology accumulation in perceptual intelligence, semantic understanding, machine vision, multi-modal human-computer interaction, deep learning, robotics and other fields. We are committed to providing excellent intelligent life perception solutions to make life better.**
