@@ -1,7 +1,7 @@
 ---
 sort: 10
 ---
-#  <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/AIWISE.png" width="66" height="66"/>  AIWiSe Product List
+#  <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/AIWISE.png" width="66" height="66"/>  Product List
 
 * ### [0 ~ 10 GHz Radar Module](https://deepwise888.github.io/AIWiSeDoc//product/0~10g.html)
 * ### [24 GHz Radar Module](https://deepwise888.github.io/AIWiSeDoc//product/24g.html)
