@@ -17,7 +17,7 @@ sort: 2
 | 4    | e       | int          | 1      | 0/1   | Existential state              |
 | 5    | d       | float        | --     |       | Distance                       |
 | 6    | fm      | float        | --     | 0~100 | Fast motion quantization       |
-| 7    | sm       | float       | --     | 0~100 | Slow motion quantization       |
+| 7    | sm      | float        | --      | 0~100 | Slow motion quantization       |
 | 8    | r       | float        | --     |       | Respiration per minute         |
 | 9    | rw      | [float,....] | 20*17  |       | Raw waveform,20s,fps=17        |
 | 10   | rcw     | [float,....] | 20*17  |       | Respiration wavefoem,20s,fps=17|
