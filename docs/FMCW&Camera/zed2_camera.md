@@ -10,8 +10,8 @@ sort: 3
 &emsp;&emsp;Unpack your camera, plug the camera in a USB 3.0 port and go to the next step. ZED cameras are all UVC compliant so they should be automatically recognized by your computer.
 
 #### 1.2 Download and install the ZED SDK  
-&emsp;&emsp;The ZED SDK is available for Windows, Linux and Nvidia Jetson platforms. It contains all the libraries that powers your camera along with tools that let you test its features and settings.  
-&emsp;&emsp;Select your platform and follow the installation guide: Windows, Linux, Jetson.  
+&emsp;&emsp;The ZED SDK is available for Windows, Linux and Nvidia Jetson platforms.But I personally recommend using Ubuntu under Linux.It contains all the libraries that powers your camera along with tools that let you test its features and settings.  
+&emsp;&emsp;Select your platform and follow the installation guide: Linux, Jetson,Windows.  
 &emsp;&emsp;Currently, we offer a companion SDK with Ubuntu version 18.04.
 
 #### 1.3 Run ZED Explorer
@@ -24,7 +24,7 @@ sort: 3
 </div>
 <center>Figure 1. Hardware Connection</center>
 
-&emsp;&emsp;The Mini-PC we provide is connected to ZED as shown in Figure 1.Since zed's Python API calls to CUDA, we had to plug in an external graphics card(eg. NVIDIA GeForce GTX 1070).We provide the MINI-PCIE card for free, in addition, you need to prepare a graphics card and independent power supply for using it.
+&emsp;&emsp;The Mini-PC we provide is connected to ZED as shown in Figure 1.Since zed's Python API calls to CUDA, we had to plug in an external graphics card(eg. NVIDIA GeForce GTX 1070).We provide the MINI-PCIE card for free, in addition, you need to prepare a graphics card and independent power supply for using it.  
 &emsp;&emsp;Relevant SDK has been installed on this Mini-PC, and after the hardware connection is completed, you can directly tune to [5 &emsp;Code Samples]()
 
 ## 3 &emsp;Installation SDK on Linux  
@@ -81,7 +81,7 @@ CUDA is an NVIDIA library used by the ZED SDK to run fast AI and computer vision
 #### 5.1 Examples Overview
 * Img_depth.py - This sample shows how to capture images and depth sensing with OpenCV. It also shows how to save data in different formats.
 * Point_cloud.py - This sample shows how to capture a 3D point cloud and display with OpenGL.
-* SVO_Recording - This sample shows how to record and playback video files in SVO format. SVO files lets you use all the ZED SDK features without having a ZED connected
+* SVO_Recording - This sample shows how to record and playback video files in SVO format. SVO files lets you use all the ZED SDK features without hmp4ng a ZED connected
 #### 5.2 Img_depth.py
 &emsp; &emsp;This tutorial shows how to get the image and depth from the ZED SDK. The program will loop until 300 frames are grabbed.
 ```shell
@@ -145,25 +145,31 @@ python3 Point_cloud.py
     ```python
     python3 Record.py
     ```
-*  Export svo to data
+*  Export svo to raw data
+    ```python
+    python3 ExportRaw.py "path/to/file.svo"
+    ```    
+*  Export svo to data(image and mp4)
     ```python
     Usage: 
         python3 Export.py A B C 
     Please use the following parameters from the command line:
      A - SVO file path (input) : "path/to/file.svo"
-     B - AVI file path (output) or image sequence folder(output) :
-             "path/to/output/file.avi" or "path/to/output/folder"
-     C - Export mode:  0=Export LEFT+RIGHT AVI.
-                          1=Export LEFT+DEPTH_image AVI.
+     B - mp4 file path (output) or image sequence folder(output) :
+             "path/to/output/file.mp4" or "path/to/output/folder"
+     C - Export mode:  0=Export LEFT+RIGHT mp4.
+                          1=Export LEFT+DEPTH_image mp4.
                           2=Export LEFT+RIGHT image sequence.
                           3=Export LEFT+DEPTH_image sequence.
-                          4=Export LEFT+DEPTH_image+Point_cloud  sequence.
+                          4=Export LEFT+DEPTH_image+Point_cloud sequence.
      A and B need to end with '/' or '\'
      Examples: 
-     (AVI LEFT+RIGHT):  python3 Export.py "path/to/file.svo" "path/to/output/file.avi" 0
-     (AVI LEFT+DEPTH):  python3 Export.py "path/to/file.svo" "path/to/output/file.avi" 1
+     (mp4 LEFT+RIGHT):  python3 Export.py "path/to/file.svo" "path/to/output/file.mp4" 0
+     (mp4 LEFT+DEPTH):  python3 Export.py "path/to/file.svo" "path/to/output/file.mp4" 1
      (SEQUENCE LEFT+RIGHT):  python3 Export.py "path/to/file.svo" "path/to/output/folder" 2
      (SEQUENCE LEFT+DEPTH):  python3 Export.py "path/to/file.svo" "path/to/output/folder" 3
      (SEQUENCE LEFT+DEPTH+POINT): python3 Export.py "path/to/file.svo" "path/to/output/folder" 4
     ```
+
+    
 ## To learn more,log in [ZED2](https://www.stereolabs.com/docs/)
