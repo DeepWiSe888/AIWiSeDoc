@@ -11,7 +11,7 @@ The system consists of C-band FMCW radar RF Front-end and FPGA high-speed acquis
 
 C-band FMCW radar RF Front-end main technical performance:  
 * Sweep bandwidth: 5.2 ~ 8.2 GHz (customizable)  
-* Sweep time: 1 ms  
+* Sweep time: 1 μs  
 * Output power: 30 dBm  
 * Sweep mode: triangle wave sweep
 
@@ -19,7 +19,7 @@ C-band FMCW radar RF Front-end main technical performance:
 | ------------ | -------------- | --------- | -----------|----------------------- |
 | Voltage      | Vcc        | 220       | V          | Three sets of terminal adapters for AIWISE, pay attention to grounding |
 | Bandwidth    | Freq           | 5.2 ~ 8.2 | GHz        | customizable |
-| Sweep Time   | Tsweep         | 1         | ms         | customizable |
+| Sweep Time   | Tsweep         | 1         | μs         | customizable |
 | Harmonic Suppression          | HS        | >30        | dB  |        |
 | Operating Temperature         | $T_a$     |  -20 ~ 85  | ℃  | Customizable industrial -40 ℃ |
 | Output Power | P<sub>out</sub>| 30        | dBm        | customizable  |
@@ -121,9 +121,14 @@ The system chart of the whole system is shown in Figure.5 . The FPGA acquisition
 <div align=center>
 <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/fmcwf6.png" width="659" height="485"/>
 </div>
-<center>Figure.6 connect FPGA to FMWC </center>
+<center>Figure.6 Connect FPGA to FMWC </center>
+
+<div align=center>
+<img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/fmcwf8.png" width="319" height="425"/>
+</div>
+<center>Figure.7 FPGA detail </center>
 
 <div align=center>
 <img src="https://raw.githubusercontent.com/DeepWiSe888/AIWiSeDoc/main/img/fmcwf7.jpg" width="405" height="455"/>
 </div>
-<center>Figure.7 IP address </center>
+<center>Figure.8 IP address </center>

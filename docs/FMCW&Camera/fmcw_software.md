@@ -7,14 +7,14 @@ sort: 2
 
 | Parameter       | Value   | Unit | Comment                                                      |
 | --------------- | ------- | ---- | ------------------------------------------------------------ |
-| c               |         |      | speed of light                                               |
-| sweep_time      | 0.001   | s    | Sweep time                                                   |
-| Sweep Frequency | 5.2~8.2 | GHz  |                                                              |
-| B               | 3       | GHz  | Sweep time                                                   |
-| S               | 3e12    |      | S = B / sweep_time                                           |
+| C               |   3*10<sup>8<sup>     |  m/s    | Speed of light                                               |
+| sweep_time      | 0.0005  | s    | Sweep time                                                   |
+| Sweep Frequency | 2~4 or 5.2~8.2	 | GHz  |                                                              |
+| B               | 2 or 3       | GHz  | Bandwidth                                                   |
+| S               |      |      | S = B / sweep_time                                           |
 | IF              | 1       | MHz  | adc sample,IF frequency                                      |
-| maximum range   | 25      | m    | IF / 2 * c / (2 * S), according to the Nyquist theorem,so IF / 2 |
-| if_offset       | 140     | KHz  | Zero point estimation, due to the influence of signal cable length |
+| maximum range   |       | m    | IF / 2 * c / (2 * S), according to the Nyquist theorem,so IF / 2 |
+| if_offset       |      | KHz  | Zero point estimation, due to the influence of signal cable length |
 
 ## 2 &emsp;Operations before power-on
 
@@ -125,4 +125,3 @@ Each frame contains flag、tx no、rx no、frame no adc data.
 
    If the working tx antennas is [1,2],rx antennas is [1,2,3,4,5], and the switching order is:tx1,rx1,rx2,rx3,rx4,rx5,tx2,rx1,rx2,rx3,rx4,rx5.
 
-2. How does the antenna switch work?
