@@ -19,4 +19,4 @@ sort: 2
 | 6    | I channel signal      | float        | 4             | 138 * 4       | i data                       |
 | 7    | Q channel signal      | float        | 4             | 138 * 4       | q data                       |
 
-#### [AW-UWB-EV-02 Toolbox](https://github.com/DeepWiSe888/Toolbox)
+#### [AW-UWB-EV-02 Toolbox](https://github.com/DeepWiSe888/AW-UWB-EV-02)
